@@ -9,14 +9,14 @@
                        "calories": 240,
                       "type": "ice-cream",
                        "ingredients": ["Chocolate Syrup", "Peppermint Sprinkle", "Vanilla Base"],
-                       "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/chocolate-mint.svg"
+                       "image": "https://t4tanzil.github.io/semester-3/25W-JavaScript-Week11-Lab04/images/chocolate-mint.svg"
                      },
                      {
                         "name": "Peach Mango",
                         "calories": 285,
                         "type": "milkshake-type ice-cream",
                         "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
-                        "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/peach-mango.svg"
+                        "image": "https://t4tanzil.github.io/semester-3/25W-JavaScript-Week11-Lab04/images/peach-mango.svg"
                     },
                     
                     {
@@ -24,21 +24,21 @@
                         "calories": 300,
                         "type": "ice-cream",
                         "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
-                        "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/strawberry-sprinkle.svg"
+                        "image": "https://t4tanzil.github.io/semester-3/25W-JavaScript-Week11-Lab04/images/strawberry-sprinkle.svg"
                     }  ,
                     {
                         "name": "Lemon Mint",
                         "calories": 220,
                         "type": "ice-cream",
                         "ingredients": ["Chocolate Syrup", "lemon Base", "Sprinkles"],
-                        "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/ice-cream-xtra1.svg"
+                        "image": "https://t4tanzil.github.io/semester-3/25W-JavaScript-Week11-Lab04/images/ice-cream-xtra1.svg"
                     }  ,
                     {
                         "name": "Chololate Blast",
                         "calories": 350,
                         "type": "ice-cream",
                         "ingredients": ["Chocolate Syrup", "Chocolate Chunks", "Vanilla Base", "Chocolate Sprinkles"],
-                        "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/ice-cream-xtra2.svg"
+                        "image": "https://t4tanzil.github.io/semester-3/25W-JavaScript-Week11-Lab04/images/ice-cream-xtra2.svg"
                     }                    
                     ]
 }
