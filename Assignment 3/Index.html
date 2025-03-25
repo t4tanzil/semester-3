@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Pizza Maker</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link to JavaScript with defer -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Pizza Creator 🍕</h1>
+            <p id="student-info" class="student-details"></p>
+        </header>
+
+        <main>
+            <form id="pizza-order-form">
+                <div class="form-section">
+                    <h2>Pizza Size</h2>
+                    <select id="pizza-size" >
+                        <option value="">Select Pizza Size</option>
+                        <!-- Options will be dynamically populated by JS -->
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Crust Type</h2>
+                    <select id="crust-type" >
+                        <option value="">Select Crust Type</option>
+                        <!-- Options will be dynamically populated by JS -->
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Sauce</h2>
+                    <select id="sauce-type" >
+                        <option value="">Select Sauce</option>
+                        <!-- Options will be dynamically populated by JS -->
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Cheese</h2>
+                    <select id="cheese-type" >
+                        <option value="">Select Cheese</option>
+                        <!-- Options will be dynamically populated by JS -->
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Toppings (Max 5)</h2>
+                    <div class="toppings-grid">
+                        <!-- Toppings will be dynamically populated by JS -->
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Special Instructions</h2>
+                    <textarea 
+                        id="special-instructions" 
+                        placeholder="Any special requests or notes about your pizza"
+                        maxlength="200"
+                    ></textarea>
+                </div>
+
+                <div class="form-section">
+                    <button type="submit" id="order-button">
+                        Create My Pizza! 🍽️
+                    </button>
+                </div>
+            </form>
+
+            <section id="pizza-result" class="result-section"></section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Dynamic Pizza Maker</p>
+        </footer>
+    </div>
+</body>
+</html>
