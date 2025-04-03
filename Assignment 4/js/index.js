@@ -80,7 +80,7 @@ function seriesinputs() {
         existingEpisode.remove();
     }
 
-    if (!existingSeason && !existingEpisode) {
+
         var season = document.createElement("input");
         season.type = "number";
         season.id = "season";
@@ -96,7 +96,7 @@ function seriesinputs() {
         
         inputs.appendChild(season);
         inputs.appendChild(episode);
-    }
+    
 }
 
 
@@ -129,11 +129,22 @@ document.addEventListener("DOMContentLoaded", function () {
             navigator.clipboard.writeText(target.href).then(() => {
                 //console.log("Copied to clipboard:", target.href);
                 input.value = extractMovieId(target.href);
+
                  // Trigger the close button click to close the search results
                  const closeBtn = document.querySelector('.gsc-results-close-btn');
                  if (closeBtn) {
                      closeBtn.click(); // Simulate a click on the close button
                  }
+                 const existingimportedNotice = document.getElementById("importedNotice");
+                
+                if (existingimportedNotice) {
+                    existingimportedNotice.remove();
+                }
+                 var importedNotice = document.createElement("p");
+                 importedNotice.id = "importedNotice";
+                 importedNotice.textContent = "ID Import successful"
+                 inputs.appendChild(importedNotice);
+       
             }).catch(err => {
                 console.error("Failed to copy:", err);
             });
